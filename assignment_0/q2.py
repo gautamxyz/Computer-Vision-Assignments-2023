@@ -1,7 +1,6 @@
 import cv2
 import os
 
-# play the video
 
 captures=cv2.VideoCapture("video.mp4")
 num_frames=0
@@ -18,7 +17,6 @@ while 1:
 
 captures.release()
 
-# merge the frames to make a video
 
 imgs=[]
 for i in range(1,num_frames+1):
